@@ -1,0 +1,23 @@
+*,
+div {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #101820;
+   color: #fff;
+   margin: 0;
+}
+
+input {
+   outline: none;
+   border: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button,
+input[type='number'] {
+   -webkit-appearance: none;
+   margin: 0;
+   -moz-appearance: textfield !important;
+}
