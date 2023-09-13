@@ -1,0 +1,33 @@
+.cell {
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgba(0, 175, 88, 0.75);
+   height: 30px;
+   display: flex;
+   align-items: center;
+   transition: background-color 0.3s;
+}
+
+.cell-credit {
+   background-color: rgba(0, 175, 88, 0.75);
+}
+.cell-debit {
+   background-color: rgba(175, 26, 0, 0.75);
+}
+
+.financial-operations-input {
+   width: 100%;
+   background-color: transparent;
+   color: #fff;
+   font-size: inherit;
+   font-family: inherit;
+   padding: 0;
+}
+.financial-operations-input::placeholder {
+   color: rgba(255, 255, 255, 0.5);
+}
+.financial-operations-empty {
+   background-color: #8383831c;
+   justify-content: center;
+   cursor: pointer;
+}

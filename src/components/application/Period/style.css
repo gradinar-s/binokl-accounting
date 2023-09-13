@@ -1,0 +1,70 @@
+.period {
+   width: 500px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 50px;
+   transition: all 0.5s;
+}
+
+.accounting-sheet {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.accounting-sheet .date {
+   text-align: center;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgba(107, 183, 204, 1);
+}
+
+.financial-operations {
+   display: flex;
+   gap: 10px;
+}
+
+/* Credit */
+.credit {
+   flex: 1 1 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+/* Debit */
+.debit {
+   flex: 1 1 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.debit .debit-item {
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgba(175, 26, 0, 0.75);
+   height: 30px;
+   display: flex;
+   align-items: center;
+}
+
+/* Common */
+
+.summary {
+   text-align: right;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: #ffffff3f;
+}
+
+.summary-item {
+   display: flex;
+   justify-content: space-between;
+}
+
+.summary-item:not(:last-child) {
+   margin-bottom: 10px;
+}
